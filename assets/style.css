@@ -30,14 +30,18 @@ a {
     background-color: #F9F7F7;
 }
 
-.h1-primary {
+.h-primary {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+
+.h-secondary {
     font-size: 4rem;
     margin-bottom: 1rem;
 }
 
-.h2-secondary {
-    font-size: 2rem;
-    margin-bottom: 2rem;
+.subheading {
+    font-size: 1.5rem;
 }
 
 .text-primary {
@@ -71,6 +75,7 @@ a {
     padding: 1rem 1.75rem;
     display: inline-block;
     border-radius: 2rem;
+    margin: 2rem 0;
 }
 
 .btn:hover {
