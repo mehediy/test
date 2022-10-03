@@ -12,7 +12,9 @@
 </head>
 <body>
     <header class="header">
-            <nav class="main-nav">
+        <div class="top-bar">
+            <div class="container">     
+                <nav class="main-nav">
                 <a href="#" class="logo"><h1>MH</h1></a>
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -21,35 +23,41 @@
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-            </nav>
-    </header>
-    <section class="hero-section">
-        <div class="hero">
-            <div class="hero-text-box">
-                <h1 class="h-primary">
-                    <span class="text-primary">Joe Biden</span>
-                </h1>
-                <h2 class="h-secondary">Just Testing</h2>
-                <a href="#" class="btn">Download CV</a>
+                </nav>
             </div>
         </div>
-    </section>
-    <section class="about-section py-2">
+        <section class="section-hero container">
+            <h1 class="primary-heading">Michael Jackson</h1>
+            <span class="secondary-heading">Web Developer</span>
+        </section>
+    </div>
+    </header>
+    <section class="section-about py-3">
         <div class="container">
-            <h1 class="h-primary text-center">About Me</h1>
-            <div class="about">
-                <div class="about-img"><img src="assets/img/profile.jpg" alt=""></div>
-                <div class="about-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum hic adipisci beatae voluptates, illo recusandae iste ipsa autem? Quaerat voluptates nostrum blanditiis nam voluptatem rem natus modi nobis eligendi, iste ullam delectus? Porro odit expedita nemo temporibus, alias dolorum corporis minus sed optio dolores dignissimos ratione, accusamus, autem quam error?
+            <div class="section-heading">
+                <span class="subheading">Biography</span>
+                <h2 class="secondary-heading">About Me</h2>
+            </div>
+        </div>
+        <div class="container">
+            <div class="about-content mt-2">
+                <div class="left">
+                    <img src="/assets/img/profile.jpg" alt="">
+                </div>
+                <div class="right">
+                    <div class="about-title">
+                        <h3 class="tertiary-heading">I am<span class="text-primary"> Michael Jackson</span></h3>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="services-section py-2 bg-light">
+    <section class="section-services py-3 bg-light">
         <div class="container">
-            <h1 class="h-primary text-center">My Services</h1>
-
-
+            <div class="section-heading">
+                <span class="subheading">What I Do</span>
+                <h2 class="secondary-heading">My Services</h2>
+            </div>
         </div>
     </section>
 </body>
