@@ -44,43 +44,6 @@ ul {
     background-color: #f9f9f9;
 }
 
-.header {
-    background: url("./img/meh.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-
-.top-bar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    padding: 1rem 0;
-    background-color: #fff;
-    box-shadow: 0 0 20px rgb(0 0 0 / 9%);
-}
-
-.main-nav {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
-
-.main-nav ul {
-    display: flex;
-    gap: 1rem;
-}
-
-.section-hero {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: center;
-    height: 90vh;
-}
-
 
 .text-primary {
     color: crimson;
@@ -107,6 +70,56 @@ ul {
     color: crimson;
 }
 
+.grid {
+    display: grid;
+    gap: 3rem;
+}
+
+.grid-3-cols {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* *************** */
+/* ***Header Section***/
+/* *************** */
+
+.header {
+    background: url("./img/meh.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.top-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 1rem 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 20px rgb(0 0 0 / 9%);
+}
+
+.main-nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.section-hero {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
 /* *************** */
 /* ***About Section***/
 /* *************** */
@@ -127,4 +140,13 @@ ul {
 
 .about-content .right {
     margin-left: 6rem;
+}
+
+.services .item {
+    width: 100%;
+    background-color: #fff;
+    height: 400px;
+    border-radius: 11px;
+    padding: 2rem;
+    box-shadow: 0 0 20px rgb(0 0 0 / 9%);
 }
