@@ -15,7 +15,7 @@ body, html {
 
 a {
     text-decoration: none;
-    color: #252A34;
+    color: crimson;
 }
 
 ul {
@@ -116,12 +116,17 @@ ul {
     gap: 1rem;
 }
 
+.main-nav a {
+    font-weight: 500;
+}
+
 .section-hero {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     justify-content: center;
     height: 100vh;
+    background: rgb(0 0 0 / 60%);
 }
 
 .section-hero .primary-heading {
@@ -130,7 +135,7 @@ ul {
 }
 
 .section-hero .secondary-heading {
-    color: #fff;
+    color: crimson;
 }
 
 
