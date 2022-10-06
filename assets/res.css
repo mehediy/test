@@ -13,15 +13,15 @@
 }
 
 @media(max-width:39em) {
+    
     .heading {
+        right: 5%;
+        left: 5%;
         text-align: center;
-        left: 0;
-        right: 0;
-
     }
 
     .heading .primary-heading {
-        font-size: 4rem;
+        font-size: 3.25rem;
         margin-bottom: 2rem;
     }
     
