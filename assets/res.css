@@ -1,0 +1,40 @@
+@media(max-width:76em) {
+    body,html {
+        font-size: 0.75rem;
+    }
+}
+
+@media(max-width:55em) {
+    .services {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    }
+    
+}
+
+@media(max-width:39em) {
+    .heading {
+        text-align: center;
+        left: 0;
+        right: 0;
+
+    }
+
+    .heading .primary-heading {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+    
+    .about-content {
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+    }
+
+    .about-content .right {
+        margin: 0 5px;
+        text-align: center;
+    }
+    .services {
+        grid-template-columns: 1fr;
+    }
+}
