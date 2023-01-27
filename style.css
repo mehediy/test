@@ -91,19 +91,21 @@ li {
 .sidebar h2 {
     margin: 0 0 1rem 0;
     border-bottom: 2px solid #DDD;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
 }
 
 .sidebar li h3 {
-    font-weight: 400;
+    font-weight: 600;
     margin-top: 0.5rem;
     color: var(--light);
 }
 .sidebar li span {
     font-weight: 300;
+    font-size: 13px;
     color: var(--light);
 }
+
 
 
 
