@@ -3,10 +3,16 @@
         max-width: 768px;
     }
 }
+@media only screen and (max-width: 800px) {
+    .container {
+        margin: 0 auto;
+        max-width: 800px;
+    }
+}
 
 @media only screen and (max-width: 768px) {
     .container {
-        margin: auto;
+        margin: 0 auto;
     }
     .about {
         grid-template-columns: 1fr;
